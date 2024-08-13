@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body, html{
+    width: 100vw;
+    font-family: "Outfit";
+}
+
+main{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh;
+
+    background-color: rgba(213, 112, 50, 0.329);
+}
+
+.card{
+    width: 50vw;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 5vh;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.p-time{
+    width: 100%;
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.p-time h6{
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.seperator{
+    width: 100%;
+    height: 2px;
+    background-color: gainsboro;
+    margin: 15px 0px;
+}
+.title{
+    margin: 20px 0px;
+    font-family: "Young Serif";
+    font-size: 32px;
+}
+.bold{
+    font-weight: 800;
+}
+
+.p-time ul li{
+    margin: 10px 20px;
+    padding-left: 10px;
+    font-size: 16px;
+
+}
+
+.ingredients h2{
+    font-family: "Young Serif";
+    font-size: 28px;
+    margin: 20px 0px;
+    color:hsl(332, 51%, 32%); 
+}
+
+.ingredients{
+    margin: 20px 10px;
+
+}
+
+.ingredients ul li{
+    margin: 10px 20px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.ingredients p{
+    font-size: 16px;
+}
+
+.table{
+    padding: 20px 0px;  
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+
+p{
+
+   padding: 5px 15px;  
+   margin-left: 10px; 
+}
+
+.red{
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+}
+
+@media screen and (max-width: 400px) {
+    main{
+        padding: 0;
+    }
+    .card{
+        width: 100%;
+        padding: 2vh;
+
+    }
+}
